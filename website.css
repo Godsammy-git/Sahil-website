@@ -1,0 +1,198 @@
+.navbar-nav li{
+  padding-left: 30px;
+}
+nav-link{
+  font-size: 1.1em !important;
+}
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+.h2, h2 {
+  font-size: calc(1.325rem + .9vw);
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-10%);
+}
+.carousel-caption h1{
+  font-size: 300%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 100%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.nvm{
+  transform: translateY(-10%);
+}
+.btn-danger{
+  border: 1px solid #000;
+}
+.btn-danger:hover {
+  background-color: black;
+  border: 1px solid #bb2124;
+
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.fa, .fas {
+  font-family: 'FontAwesome';
+}
+
+.social-icon {
+color: #fff;
+background: #221B14; 
+font-size:1em;
+border-radius: 50%;
+line-height: 2.2em;
+width: 2.1em;
+height: 2.1em;
+text-align: center;
+display: inline-block;
+}
+
+li:hover {
+  transform: translateY(-4px);
+  transition:0.3s;
+}
+.padding{
+  padding-bottom: 2rem;
+
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1 rem;
+}
+.fa-code{
+  color: #e54d26;
+}
+.fa-bold{
+  color: #563d7c;
+}
+.fa-css3{
+  color: #2163af;
+}
+.fa-code, .fa-bold, .fa-css3{
+  font-size: 4rem;
+  margin: 1rem;
+}
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+hr.light-200{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 992px) {
+  .mysocial{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption{
+    top: 45%;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+    
+  }
+  .carousel-caption h3{
+    font-size: 60%;
+    font-weight: 300;
+    padding-bottom: 0.1rem;
+  }
+  .carousel-caption .btn{
+    font-size: 50%;
+    padding: 8px 14px;
+  }
+  .virat{
+    transform: translateY(-65%);
+  }
+  .ok{
+    transform: translateY(-70%);
+  }
+  .nvm{
+    transform: translateY(-50%);
+  }
+  .display-4{
+    font-size: 200%;
+  }
+  .mysocial{
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h1{
+    font-size: 150%;
+    
+  }
+  .carousel-caption h3{
+    font-size: 50%;
+    font-weight: 300;
+    padding-bottom: 0.1rem;
+  }
+  .carousel-caption .btn{
+    font-size: 40%;
+    padding: 4px 8px;
+  }
+  .display-4{
+    font-size: 160%;
+  }
+  .mysocial{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
